@@ -16,7 +16,6 @@ We need a local directory to mount where Chicago Boss and your applications can 
 
     cd
     mkdir chicagoboss
-    cd chicagoboss
     git clone https://github.com/imperialwicket/vagrant-chicagoboss.git
     cd vagrant-chicagoboss
     vagrant up
