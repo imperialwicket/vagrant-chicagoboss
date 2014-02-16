@@ -30,7 +30,7 @@ Start your application from the guest OS:
     cd /home/vagrant/chicagoboss/someProject/
     ./init-dev.sh
 
-Review your application at [http://localhost:8881] on your host OS. The 'someProject' directory will be avialable on your host OS at $HOME/chicagoboss/someProject.
+Review your application at (http://localhost:8881) on your host OS. The 'someProject' directory will be avialable on your host OS at $HOME/chicagoboss/someProject.
 
 
 ## Goals
