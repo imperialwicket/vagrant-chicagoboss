@@ -1,7 +1,7 @@
 Chicago Boss vagrant configuration using:
- - Chicago Boss @"0d99199" (slightly > 0.8.9)
+ - Chicago Boss (v0.8.11)
  - Ubuntu 12.04LTS
- - Erlang R15B02 (compiled from source)
+ - Erlang R16B02 (compiled from source)
  - Bash provisioning
 
 ## Requirements
