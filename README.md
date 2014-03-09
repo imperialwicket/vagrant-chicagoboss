@@ -36,12 +36,3 @@ Review your application at [http://localhost:8881](http://localhost:8881) on you
 ## Goals
 
 The primary target is to make it as easy as possible to get started with Chicago Boss. It does take a while to build Erlang in a virtual machine, but generating a working vm in this way means that we also have a living bash script to get any server configured and running Chicago Boss using the same script.
-
-
-## Todo
-
-Right now this pretty much leaves the user with the no routes error message:
-
-    No routes matched the requested URL. Additionally, no handler was found for processing 404 errors. You probably want to modify /home/vagrant/torrio/priv/torrio.routes to prevent errors like this one.
-
-This is better than having users who can't compile the framework or launch a project, but not by much.
