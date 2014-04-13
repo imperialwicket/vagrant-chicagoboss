@@ -12,7 +12,7 @@ else
   apt-get -y install build-essential m4 libncurses5-dev libssh-dev unixodbc-dev libgmp3-dev libwxgtk2.8-dev libglu1-mesa-dev fop xsltproc default-jdk git
   mkdir -p /usr/src/erlang
   cd /usr/src/erlang
-  curl -s http://www.erlang.org/download/otp_src_${ERLANG_VERSION}.tar.gz
+  curl -O -s http://www.erlang.org/download/otp_src_${ERLANG_VERSION}.tar.gz
   tar -xvzf otp_src_${ERLANG_VERSION}.tar.gz
   cd otp_src_${ERLANG_VERSION}
   ./configure
