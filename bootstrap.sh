@@ -24,7 +24,7 @@ if [ -d /home/vagrant/chicagoboss/ChicagoBoss ]; then
   echo "ChicagoBoss present, skipping installation."
 else
   echo "Installing Chicago Boss..."
-  mkdir /home/vagrant/chicagoboss
+  mkdir -p /home/vagrant/chicagoboss
   cd /home/vagrant/chicagoboss/
   git clone https://github.com/ChicagoBoss/ChicagoBoss.git
   cd ChicagoBoss
